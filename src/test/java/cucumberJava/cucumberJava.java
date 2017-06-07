@@ -66,7 +66,6 @@ public class cucumberJava {
     }
 
 
-    @Test
     @When("^I enter Email as \"([^\"]*)\" and Password as \"([^\"]*)\"$")
 
     public void I_enter_Email_as_and_Password_as(String arg1, String arg2) {
