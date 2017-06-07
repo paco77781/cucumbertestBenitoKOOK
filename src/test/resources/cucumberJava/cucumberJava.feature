@@ -26,11 +26,7 @@ Feature: CucumberJava
 
     Then login should be unsuccessful
 
- #   Given Iopenapp
 
-  #  When I enter Email as "micorreo@ibermatica.com" and Password as ""
-
-  #  Then login should be unsuccessful
 
 
 
