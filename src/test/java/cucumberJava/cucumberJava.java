@@ -56,7 +56,7 @@ public class cucumberJava {
         //requiredcapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.iOS);
         //requiredcapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Ipad Air2 Device");
 
-        //desiredCapabilities.setCapability("app","/Users/appium/Documents/PruebaAppium.ipa");
+        desiredCapabilities.setCapability("app","/Users/appium/Documents/PruebaAppium.ipa");
 //pepe
         desiredCapabilities.setCapability("realDeviceLogger","/usr/local/lib/node_modules/deviceconsole/deviceconsole");
 
