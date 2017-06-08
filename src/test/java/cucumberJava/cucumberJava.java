@@ -55,7 +55,9 @@ public class cucumberJava {
         //desiredCapabilities.setCapability("automationName","UIautomation");
         //requiredcapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.iOS);
         //requiredcapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Ipad Air2 Device");
-        desiredCapabilities.setCapability("app","/Users/appium/Documents/PruebaAppium.ipa");
+
+        //desiredCapabilities.setCapability("app","/Users/appium/Documents/PruebaAppium.ipa");
+
         desiredCapabilities.setCapability("realDeviceLogger","/usr/local/lib/node_modules/deviceconsole/deviceconsole");
 
         //driver = new IOSDriver(new URL("http://0.0.0.0:4723/wd/hub"),desiredCapabilities);
